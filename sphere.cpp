@@ -18,9 +18,11 @@ Sphere::~Sphere(){
 }
 
 float Sphere::getVolume(){
-    return 0;
+    float volume = ((4.0/3.0)*M_PI*pow(radius,3));
+    return volume;
 }
 
 float Sphere::getArea(){
-    return 0;
+    float area = (4.0*M_PI*pow(radius,2));
+    return area;
 }
