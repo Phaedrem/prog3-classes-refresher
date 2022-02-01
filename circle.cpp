@@ -27,11 +27,13 @@ float Circle::getCircumference(){
 }
 
 float Circle::getArea(){
-    return 0;
+    float area = (M_PI*pow(radius,2));
+    return area;
 }
 
 float Circle::getDiameter(){
-    return 0;
+    float diameter = (2*radius);
+    return diameter;
 }
 
 void Circle::setRadius(float r){
