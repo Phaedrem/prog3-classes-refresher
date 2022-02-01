@@ -18,11 +18,12 @@ Circle::~Circle(){
 }
 
 float Circle::getRadius(){
-    return 0;
+    return radius;
 }
 
 float Circle::getCircumference(){
-    return 0;
+    float circumference = (2*M_PI*radius);
+    return circumference;
 }
 
 float Circle::getArea(){
@@ -34,5 +35,10 @@ float Circle::getDiameter(){
 }
 
 void Circle::setRadius(float r){
-    radius = r;
+    if(r > MIN){
+        radius = r;
+    } else {
+        radius = MIN;
+    }
+    
 }
