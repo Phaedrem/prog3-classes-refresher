@@ -11,4 +11,7 @@ Purpose: Classes and Objects refresher assignment
 #include <iostream>
 #include "sphere.h"
 
+void displayCircle(Circle*);
+void displaySphere(Sphere*);
+
 #endif //SPHERE_FUNCTIONS_H
