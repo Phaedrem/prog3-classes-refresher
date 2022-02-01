@@ -19,5 +19,6 @@ void displaySphere(Sphere *mySphere){
     std::cout << mySphere->getDiameter() << std::endl;
     std::cout << mySphere->getCircumference() << std::endl;
     std::cout << mySphere->getArea() << std::endl;
+    std::cout << mySphere->getVolume() << std::endl;
     std::cout << std::endl;
 }
