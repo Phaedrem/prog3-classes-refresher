@@ -12,9 +12,13 @@ Purpose: Classes and Objects refresher assignment
 class Sphere : public Circle {
 
     public:
+    Sphere();
+    Sphere(float); 
 
+    ~Sphere();
 
-    private:
+    float getVolume();
+    float getArea();
 
 };
 
