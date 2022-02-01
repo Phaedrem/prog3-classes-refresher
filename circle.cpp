@@ -22,7 +22,7 @@ float Circle::getRadius(){
 }
 
 float Circle::getCircumference(){
-    float circumference = (2*M_PI*radius);
+    float circumference = (2.0*M_PI*radius);
     return circumference;
 }
 
@@ -32,7 +32,7 @@ float Circle::getArea(){
 }
 
 float Circle::getDiameter(){
-    float diameter = (2*radius);
+    float diameter = (2.0*radius);
     return diameter;
 }
 

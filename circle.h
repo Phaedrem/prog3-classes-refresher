@@ -9,7 +9,7 @@ Purpose: Classes and Objects refresher assignment
 
 #include <cmath>
 
-#define MIN 0
+#define MIN 0.0
 
 class Circle {
 
